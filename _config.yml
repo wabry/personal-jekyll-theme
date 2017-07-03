@@ -55,9 +55,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Console.WriteLine(\"Hello World!\");"
-  - text: "cout << \"Hello World!\\n\";"
-  - text: "printf(\"Hello World!\");"
+  - text: "Console&#46;Write&#40;&quot;Hello World&#33;&quot;&#41;&#59;"
+#  - text: "cout << &quot;Hello World!&quot;;"
+#  - text: "printf(&quot;Hello World!&quot;);"
 # me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
@@ -143,7 +143,7 @@ events:
   - image: "/img/timeline/chamberlain_logo.png"
     date: "June 2016 - August 2016"
     description: "Firmware Development Internship at The Chamberlain Group"
-  - image: "/img/timeline/robot_drone.png"
+  - image: "/img/timeline/robot_drone.jpg"
     date: "June 2015 - August 2015"
     description: "Built a robot drone, controllable via WiFi"
   - image: "/img/timeline/umich_seal.png"
@@ -155,7 +155,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/timeline_start.png"
+timeline-img: "/img/timeline/timeline_start.jpg"
 
 ###########
 # Contact #
