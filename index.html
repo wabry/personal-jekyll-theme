@@ -674,6 +674,62 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Dynamic Typing Start -->
+
+  <script type="text/javascript" src="/js/typed.min.js"></script>
+  <script type="text/javascript">
+
+  var myQuotes =  new Array();
+  
+    myQuotes.push("If debugging is the process of removing software bugs, then programming must be the process of putting them in.");
+  
+    myQuotes.push("Good design adds value faster than it adds cost.");
+  
+    myQuotes.push("It’s not a bug – it’s an undocumented feature.");
+  
+    myQuotes.push("C makes it easy to shoot yourself in the foot. C++ makes it harder, but when you do, it blows away your whole leg.");
+  
+    myQuotes.push("Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.");
+  
+
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  
+    shuffle(myQuotes)
+  
+
+    $(".intro-text").typed({
+      strings: myQuotes,
+      typeSpeed: 10,
+      backDelay: 5000,
+      startDelay: 200,
+      loop: true,
+      loopCount: false,
+      cursorChar: "|"
+    });
+  </script>
+
+  <!-- Dynamic Typing End  -->
+
+
+
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
