@@ -58,7 +58,6 @@ lines: # You can add HTML Tags in the Text
   - text: "If debugging is the process of removing software bugs, then programming must be the process of putting them in."
   - text: "Good design adds value faster than it adds cost."
   - text: "It’s not a bug – it’s an undocumented feature."
-  - text: "C makes it easy to shoot yourself in the foot. C++ makes it harder, but when you do, it blows away your whole leg."
   - text: "Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms."
   
 # me-img: "/img/jetpacktocat.png"
