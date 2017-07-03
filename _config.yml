@@ -33,13 +33,13 @@ author: "Will Bryant"
 title: "{ Will Bryant }"
 description: "Personal website and blog of Will Bryant."
 keywords: "william, will, bryant, personal, jekyll, theme"
-favicon: "/img/michicon.ico"
+favicon: "/img/personBlack.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/stack.ico"
+black-favicon: "/img/personWhite.ico"
 
 background-img: "../img/universe-background.jpg"
 
@@ -55,8 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Innovation distinguishes between a leader and a follower.<br><i>-Steve Jobs</i>"
-#  - text: "Where’s your will to be weird?"
+  - text: "int main() { cout << \"Hello world!\\n\";}"
 
 # me-img: "/img/jetpacktocat.png"
 
@@ -90,16 +89,16 @@ apple-status-bar-style: "black"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
+icon-36p: ""
+icon-48p: ""
+icon-72p: ""
+icon-96p: ""
+icon-144p: ""
+icon-192p: ""
 
 ########
 # Blog #
