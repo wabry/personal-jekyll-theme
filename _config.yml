@@ -47,7 +47,7 @@ background-img: "../img/universe-background.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -55,6 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
+  - text: "Console&#46;WriteLine&#40;&quot;Hello World&#33;&quot;&#41;&#59;"
   - text: "Console&#46;Write&#40;&quot;Hello World&#33;&quot;&#41;&#59;"
 #  - text: "cout << &quot;Hello World!&quot;;"
 #  - text: "printf(&quot;Hello World!&quot;);"
@@ -137,12 +138,18 @@ events:
   - image: "/img/timeline/smart_safe.png"
     date: "March 2017 - April 2017"
     description: "Built a smart personal safe for EECS 373"
+  - image: "/img/timeline/mpowered.png"
+    date: "March 2017"
+    description: "Became CTO & CFO of MPowered Entrepreneurship"
   - image: "/img/timeline/mqtt.png"
     date: "August 2016"
     description: "Wrote a rule engine for a MQTT inspired pub/sub model"
   - image: "/img/timeline/chamberlain_logo.png"
     date: "June 2016 - August 2016"
     description: "Firmware Development Internship at The Chamberlain Group"
+  - image: "/img/timeline/makeathon.png"
+    date: "April 2017"
+    description: "Became project director of MPowered's Makeathon"
   - image: "/img/timeline/robot_drone.jpg"
     date: "June 2015 - August 2015"
     description: "Built a robot drone, controllable via WiFi"
