@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Console.WriteLine(\"Hello World!\")";
+  - text: "Console.WriteLine(\"Hello World!\");"
   - text: "cout << \"Hello World!\\n\";"
   - text: "printf(\"Hello World!\");"
 # me-img: "/img/jetpacktocat.png"
