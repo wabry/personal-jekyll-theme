@@ -1,4 +1,3 @@
-
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -34,7 +33,7 @@ author: "Will Bryant"
 title: "{ Will Bryant }"
 description: "Personal website and blog of Will Bryant."
 keywords: "william, will, bryant, personal, jekyll, theme"
-favicon: "/img/michlogo.ico"
+favicon: "/img/michicon.ico"
 
 ################
 # Header layout #
@@ -56,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Innovation distinguishes between a leader and a follower. <i> -Steve Jobs </i>"
+  - text: "Innovation distinguishes between a leader and a follower.<br><i>-Steve Jobs</i>"
 #  - text: "Where’s your will to be weird?"
 
 # me-img: "/img/jetpacktocat.png"
