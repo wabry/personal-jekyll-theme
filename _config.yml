@@ -34,13 +34,13 @@ author: "Will Bryant"
 title: "{ Will Bryant }"
 description: "Personal website and blog of Will Bryant."
 keywords: "william, will, bryant, personal, jekyll, theme"
-favicon: "/img/michseal.ico"
+favicon: "/img/michlogo.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/michseal.ico"
+black-favicon: "/img/stack.ico"
 
 background-img: "../img/universe-background.jpg"
 
@@ -56,7 +56,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Testing this with one line."
+  - text: "Innovation distinguishes between a leader and a follower. <i> -Steve Jobs </i>"
 #  - text: "Where’s your will to be weird?"
 
 # me-img: "/img/jetpacktocat.png"
@@ -157,8 +157,8 @@ email: "wabryant@umich.edu"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "" #"John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "" #/img/author.png
 
 ##################
 # Social Buttons #
