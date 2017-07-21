@@ -537,10 +537,18 @@ icon and it shouldn’t include the “fa-“ prefix.&lt;/p&gt;
 			</item>
 		
 			<item>
-				<title>Modifying the Contact</title>
+				<title>Contact Tutorial</title>
 				
 				
-					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
+					<description>&lt;p&gt;–
+layout: post
+section-type: post
+title: Modifying the Contact
+category: tech
+tags: [ ‘tutorial’ ]
+—&lt;/p&gt;
+
+&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Text&lt;/li&gt;
@@ -559,8 +567,8 @@ email: &quot;your@email.here&quot;
 </description>
 				
 				<pubDate>Wed, 10 Jun 2015 00:00:00 -0500</pubDate>
-				<link>https://wabry.github.io/tech/2015/06/10/contact-tutorial.html</link>
-				<guid isPermaLink="true">https://wabry.github.io/tech/2015/06/10/contact-tutorial.html</guid>
+				<link>https://wabry.github.io/2015/06/10/contact-tutorial.html</link>
+				<guid isPermaLink="true">https://wabry.github.io/2015/06/10/contact-tutorial.html</guid>
 			</item>
 		
 	</channel>
