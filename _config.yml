@@ -103,31 +103,6 @@ icon-96p: ""
 icon-144p: ""
 icon-192p: ""
 
-########
-# Blog #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-disqus-shortname: "panossakkos"
-
-syntax-highlight: True
-
 ############
 # Timeline #
 ############
@@ -171,17 +146,6 @@ timeline-img: "/img/timeline/timeline_start.jpg"
 
 email: "wabryant@umich.edu"
 
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "" #"John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "" #/img/author.png
-
 ##################
 # Social Buttons #
 ##################
@@ -198,14 +162,6 @@ social:
 
 err-404-img: "/img/labtocat.png"
 
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: 
-keybase-in-social: False
-keybase-in-footer: False
-
 ################################################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
@@ -221,10 +177,6 @@ pages_list:
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
 
 # Enable minification SASS
 
