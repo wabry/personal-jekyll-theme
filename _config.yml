@@ -171,6 +171,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: 'about'
   Skills: 'skills'
+  Courses: 'courses'
   Timeline: 'timeline'
   Contact: 'contact'
 
